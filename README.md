@@ -48,7 +48,7 @@ classList.hasClass    : If the DOM has the className you input, return true, oth
 //add 3 classes at one time
 classList.addClass(dom,"newClass newClass2 newClass3");
 ```
-2. We support chain method,so you can do something like this:
+2. We support method chaining,so you can do something like this:
 
 ```javascript
 
