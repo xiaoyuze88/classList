@@ -6,7 +6,7 @@ For modern browser, we use the HTML5 classList api to deal with className, other
 ## Quick Start ##
 
 ```javascript
-//We set classList to window, so you can use it directly like:
+//We set classList object to window, so you can use it directly like:
 
 classList.addClass(dom,className);
 classList.removeClass(dom,className);
@@ -16,9 +16,11 @@ classList.hasClass(dom,className);
 
 ## Parameters ##
 
+```javascript
 dom : the dom element that you need to set class name
 className : the className that you want to use, 
 			you can also set multiple class like : "newClass newClass2 newClass3"
+```
 
 ## Method ##
 
