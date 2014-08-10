@@ -1,7 +1,8 @@
 # classList.js #
 
 This is a tiny plugins with less than 100 lines codes to help you easier to deal with DOM's className when your project don't need library like jQuery. 
-For modern browser, we use the HTML5 classList api to deal with className, otherwise, for browsers like IE9-, we use our function to deal with them.
+For modern browser, we use the HTML5 classList api to deal with className, otherwise, for browsers like IE9- or Android 3-, we use our function to deal with them.
+Support : IE6+ & all mordern browser & all mobile browser.
 
 ## Quick Start ##
 
