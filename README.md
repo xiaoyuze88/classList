@@ -20,12 +20,14 @@ classList.hasClass(dom,className);
 ## Parameters ##
 
 ```javascript
-dom : the dom element that you need to set class name
+dom 	  : the DOM element that you need to set class name
 className : the className that you want to use, 
-			you can also set multiple class like : "newClass newClass2 newClass3"
+			you can also set multiple classes like : "newClass newClass2 newClass3"
 ```
 
 ## Method ##
+
+```javascript
 
 classList.addClass    : Add one or more class to the DOM you input.
 
@@ -33,7 +35,10 @@ classList.removeClass : Remove one or more class to the DOM you input.
 
 classList.toggleClass : If the DOM you input has the className, remove it, otherwise, add the className.
 
-classList.hasClass    : If the DOM has the className you input, return true, otherwise ,return false.(For this method, you can only input one className at one time.)
+classList.hasClass    : If the DOM has the className you input, return true, otherwise ,return false.
+						(For this method, you can only input one className at one time.)
+
+```
 
 ## More ##
 
