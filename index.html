@@ -4,17 +4,14 @@
 		<meta charset="utf-8">
 	</head>
 	<body>
-		<div id="test" class="a b cde xyz test fuck-123"></div>
+		<div id="test" class="a b cde xyz test"></div>
 		<script src="classList.js"></script>
 		<script>
 		var dom = document.querySelector("#test");
-			// log(classList.hasClass(dom,'fuck-123'));
-			// classList.addClass(dom,'')
-			log(classList.addClass(dom,'abd bbd abc qef fuck-123 test').hasClass(dom,"qef"))
-			// log(classList.hasClass(dom,'newclass'))
-			function log (info) {
-				console.log(info);
-			}
+		log(classList.addClass(dom,'abd bbd abc qef test').hasClass(dom,"qef"))
+		function log (info) {
+			console.log(info);
+		}
 		</script>
 	</body>
 </html>
