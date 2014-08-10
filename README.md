@@ -8,6 +8,9 @@ For modern browser, we use the HTML5 classList api to deal with className, other
 ```javascript
 //We set classList object to window, so you can use it directly like:
 
+var dom = document.querySelector('#yourDom');
+var className = "yourClassName";
+
 classList.addClass(dom,className);
 classList.removeClass(dom,className);
 classList.toggleClass(dom,className);
